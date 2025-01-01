@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.htlsaalfelden.adventskalender.MainwindowViewController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0">
+         <image>
+            <Image url="@background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivSettings" fitHeight="100.0" fitWidth="100.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#openSettings" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="14.0" layoutY="14.0">
+         <image>
+            <Image url="@getriebe.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

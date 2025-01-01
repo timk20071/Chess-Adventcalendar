@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="128.0" prefWidth="312.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.htlsaalfelden.adventskalender.TooEarlyView">
+   <children>
+      <Button fx:id="button" layoutX="129.0" layoutY="80.0" mnemonicParsing="false" onAction="#onClick" style="-fx-background-color: black;" text="Ok" />
+      <Label layoutX="43.0" layoutY="36.0" style="-fx-text-fill: red;" text="You can't open that door, it's still to early" />
+   </children>
+</AnchorPane>
